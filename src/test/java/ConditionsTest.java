@@ -7,6 +7,8 @@ import org.testng.annotations.Listeners;
 
 @Listeners(ScreenShooter.class)
 public class ConditionsTest {
+    CreateAccount createAccount = new CreateAccount();
+
     @BeforeSuite(alwaysRun = true)
     public void beforeSuiteMethod() {
 //        WebDriverManager.chromedriver().version("80").setup();
