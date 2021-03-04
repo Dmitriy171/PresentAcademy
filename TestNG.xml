@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="User Tests">
+        <classes>
+            <class name="ScoreTest"/>
+            <class name="AddBasketDress"/>
+            <class name="BuyRandProduct"/>
+            <class name="ConditionsTest"/>
+            <class name="CreateAccount"/>
+            <class name="Search"/>
+        </classes>
+    </test>
+</suite>
